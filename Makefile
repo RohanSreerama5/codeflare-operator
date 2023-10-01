@@ -8,7 +8,7 @@
 # BUNDLE_VERSION is declared as bundle versioning doesn't use semver
 
 PREVIOUS_VERSION ?= v0.0.0-dev
-VERSION ?= v0.0.0-dev
+VERSION ?= stable
 BUNDLE_VERSION ?= $(VERSION:v%=%)
 
 # INSTASCALE_VERSION defines the default version of the InstaScale controller
